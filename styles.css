@@ -1,0 +1,55 @@
+body {
+    background-color: #ddd;
+}
+
+.container {
+
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(39, 38, 38);
+    border: 2px solid green;
+
+
+}
+
+.ico {
+    background-color: rgb(59, 57, 57);
+    display: inline;
+    color: #FFF;
+    font-size: 10px;
+    margin: 40px;
+}
+
+.ico i {
+    width: 100px;
+    height: 50px;
+}
+
+#todo {
+    background-color: rgb(39, 38, 38);
+    border-radius: 3px;
+    border: none;
+    border-bottom: 2px solid #1fe;
+    width: 200px;
+    color: #fff;
+
+
+}
+
+#todo:hover {
+    background: linear-gradient(to bottom, transparent, #111);
+    border: none;
+    border-bottom: 2px solid #1fe
+}
+
+#todo-list {
+    color: #fff;
+}
+
+.boton {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: 2px solid hsl(120, 42%, 24%);
+    border-radius: 5px;
+}

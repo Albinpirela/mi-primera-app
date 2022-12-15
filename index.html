@@ -6,15 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo list</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/39fd49c23e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <form id="todo-form">
-        <input type="text" id="todo" placeholder="Insert the element of the list">
-        <input type="submit" value="Enviar">
-    </form>
-    <ul id="todo-list">
-    </ul>
+    <div class="container">
+        <div class="ico">
+            <i class="fa-sharp fa-solid fa-list-ul">The elemen list</i>
+        </div>
+        <div class="caja">
+            <form id="todo-form">
+                <input type="text" id="todo" placeholder="Insert the element of the lissst">
+                <input type="submit" value="Enviar" class="boton">
+            </form>
+        </div>
+        <div class="lista">
+            <ul id="todo-list">
+            </ul>
+        </div>
+    </div>
+
 </body>
 <script src="main.js"></script>
 
