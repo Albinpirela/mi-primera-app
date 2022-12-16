@@ -75,12 +75,17 @@ i {
     align-items: center;
     bottom: 10px;
     background: linear-gradient(to bottom, transparent, #111);
-    border-radius: 3px;
+    border-radius: 2px;
     border: none;
     width: 200px;
-    color: #fff;
+    color: #0b0;
 
 
+}
+
+#todo:focus {
+    outline: none;
+    background: linear-gradient(to bottom, transparent, #111);
 }
 
 
@@ -97,6 +102,12 @@ i {
 
 }
 
+ul li p {
+    color: #0f0;
+    margin: 0;
+    padding: 0;
+}
+
 #boton {
     align-self: auto;
     position: relative;
@@ -110,7 +121,10 @@ i {
     display: flex;
     position: relative;
     right: 100px;
+    max-width: 150px;
+
 }
+
 
 .lista ul li {
     color: #0f0;
